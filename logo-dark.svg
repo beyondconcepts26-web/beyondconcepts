@@ -1,26 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" width="280" height="72" role="img" aria-label="Beyond Concepts">
   <defs>
-    <linearGradient id="bc-grad-d" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A78BFA"/>
-      <stop offset="100%" stop-color="#38BDF8"/>
+    <linearGradient id="bc-gold-d" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#F97316"/>
     </linearGradient>
-    <linearGradient id="bc-grad2-d" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.5"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.5"/>
+    <linearGradient id="bc-gold2-d" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0.55"/>
     </linearGradient>
-    <linearGradient id="bc-grad3-d" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.2"/>
+    <linearGradient id="bc-gold3-d" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#F97316" stop-opacity="0.22"/>
     </linearGradient>
+    <filter id="bc-glow-d" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
 
   <!-- Mark: Triple forward slash -->
-  <line x1="6"  y1="60" x2="24" y2="12" stroke="url(#bc-grad-d)"  stroke-width="5.5" stroke-linecap="round"/>
-  <line x1="19" y1="60" x2="37" y2="12" stroke="url(#bc-grad2-d)" stroke-width="5.5" stroke-linecap="round"/>
-  <line x1="32" y1="60" x2="50" y2="12" stroke="url(#bc-grad3-d)" stroke-width="5.5" stroke-linecap="round"/>
+  <g filter="url(#bc-glow-d)">
+    <line x1="6"  y1="60" x2="24" y2="12" stroke="url(#bc-gold-d)"  stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="19" y1="60" x2="37" y2="12" stroke="url(#bc-gold2-d)" stroke-width="5.5" stroke-linecap="round"/>
+    <line x1="32" y1="60" x2="50" y2="12" stroke="url(#bc-gold3-d)" stroke-width="5.5" stroke-linecap="round"/>
+  </g>
 
   <!-- Separator -->
-  <line x1="64" y1="18" x2="64" y2="54" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <line x1="64" y1="18" x2="64" y2="54" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
 
   <!-- Wordmark -->
   <text

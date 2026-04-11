@@ -1,26 +1,23 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" width="280" height="72" role="img" aria-label="Beyond Concepts">
   <defs>
-    <linearGradient id="bc-grad" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7C3AED"/>
-      <stop offset="100%" stop-color="#06B6D4"/>
+    <linearGradient id="bc-gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="100%" stop-color="#EA580C"/>
     </linearGradient>
-    <linearGradient id="bc-grad2" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.55"/>
+    <linearGradient id="bc-gold2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#EA580C" stop-opacity="0.55"/>
     </linearGradient>
-    <linearGradient id="bc-grad3" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.22"/>
+    <linearGradient id="bc-gold3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#EA580C" stop-opacity="0.22"/>
     </linearGradient>
   </defs>
 
-  <!-- Mark: Triple forward slash — "///" meaning beyond / forward / further -->
-  <!-- Slash 1 — bold, full opacity -->
-  <line x1="6"  y1="60" x2="24" y2="12" stroke="url(#bc-grad)"  stroke-width="5.5" stroke-linecap="round"/>
-  <!-- Slash 2 — medium opacity -->
-  <line x1="19" y1="60" x2="37" y2="12" stroke="url(#bc-grad2)" stroke-width="5.5" stroke-linecap="round"/>
-  <!-- Slash 3 — ghost -->
-  <line x1="32" y1="60" x2="50" y2="12" stroke="url(#bc-grad3)" stroke-width="5.5" stroke-linecap="round"/>
+  <!-- Mark: Triple forward slash -->
+  <line x1="6"  y1="60" x2="24" y2="12" stroke="url(#bc-gold)"  stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="19" y1="60" x2="37" y2="12" stroke="url(#bc-gold2)" stroke-width="5.5" stroke-linecap="round"/>
+  <line x1="32" y1="60" x2="50" y2="12" stroke="url(#bc-gold3)" stroke-width="5.5" stroke-linecap="round"/>
 
   <!-- Separator -->
   <line x1="64" y1="18" x2="64" y2="54" stroke="#E5E7EB" stroke-width="1"/>
